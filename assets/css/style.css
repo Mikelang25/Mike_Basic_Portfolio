@@ -119,3 +119,21 @@ li{
     padding: 0 20px 0 20px;
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
+.input-name, .input-email{
+    width: 50%;
+    margin:10px;
+    height: 25px;
+}
+
+.input-msg{
+    width:90%;
+    margin:10px;
+    height:200px;
+}
+label{
+    margin-left: 10px;
+}
+
+.contract-bottom{
+
+}
