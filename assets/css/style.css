@@ -128,12 +128,14 @@ li{
 .input-msg{
     width:90%;
     margin:10px;
+    padding: 5px;
     height:200px;
 }
-label{
+
+.input-submit{
     margin-left: 10px;
 }
 
-.contract-bottom{
-
+label{
+    margin-left: 10px;
 }
