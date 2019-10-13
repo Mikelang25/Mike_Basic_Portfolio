@@ -4,8 +4,11 @@ body{
 
 li{
     display: inline;
+ }
+.nav-menu li + li:before{
+    content: " | ";
+    padding: 0 10px;
 }
-
 .main-container{
     background-color: white;
     width: 70%;
@@ -27,7 +30,7 @@ li{
 }
 
 .head-right{
-    background-color: rgb(175, 26, 59);
+    background-color:whitesmoke;
     width: 27.5%;
     float: left;
     padding:15px 0% 0% 2.5%;
