@@ -1,0 +1,61 @@
+body{
+    background-color:whitesmoke;
+    background-image: url(/assets/images/prism.png)
+}
+
+.main-container{
+    background-color: darkgreen;
+    width: 70%;
+    height: 500px;
+    margin: 30px 15% 0 15%;
+    padding:20px;
+    float: left;
+}
+
+.head-main{
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: black;
+}
+
+.head-left{
+    background-color: brown;
+    width: 60%;
+    float: left;
+    padding:0% 0% 0% 10%;
+}
+
+.head-right{
+    background-color: rgb(175, 26, 59);
+    width: 27.5%;
+    float: left;
+    padding:0% 0% 0% 2.5%;
+    height:81px;
+}
+
+.main-head{
+    background-color:greenyellow;
+    width:20%;
+    float: left;
+    height: 20%
+}
+.left{
+    float: left;
+    width:40%;
+}
+
+.center{
+    float: left;
+    width:20%;
+    background-color: grey;
+    text-align: center;
+    border-style: solid;
+    border-width: 0.5px;
+    border-color: black;
+    height: 80%;
+}
+
+.right{
+    float: left;
+    width:40%;
+}
