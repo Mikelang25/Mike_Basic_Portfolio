@@ -4,6 +4,7 @@ body{
 
 li{
     display: inline;
+    font-family: 'Georgia', Times, Times New Roman, serif;
  }
 .nav-menu li + li:before{
     content: " | ";
@@ -34,7 +35,7 @@ li{
     width: 27.5%;
     float: left;
     padding:15px 0% 0% 2.5%;
-    height:66px;
+    height:65px;
     border-bottom-style: solid;
     border-bottom-width: 2px;
     border-bottom-color: grey;
@@ -63,6 +64,8 @@ li{
     border-top-width: 0.5px;
     border-top-color: black;
     height: 80%;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    text-shadow: -1px 0 whitesmoke, 0 1px whitesmoke, 1px 0 whitesmoke, 0 -1px whitesmoke;
 }
 
 .right{
