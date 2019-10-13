@@ -5,6 +5,7 @@ body{
 li{
     display: inline;
     font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 17pt;
  }
 .nav-menu li + li:before{
     content: " | ";
@@ -49,7 +50,7 @@ li{
 .center{
     float: left;
     width:20%;
-    background-color: grey;
+    background-color: rgb(187, 174, 174);
     text-align: center;
     border-left-style: solid;
     border-left-width: 2px;
