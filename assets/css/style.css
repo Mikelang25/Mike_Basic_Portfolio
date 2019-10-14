@@ -14,6 +14,10 @@ li{
     color:black;
  }
 
+ h1{
+     padding-top: 10px;
+ }
+
 .nav-menu li + li:before{
     content: " | ";
     padding: 0 10px;
@@ -37,17 +41,20 @@ li{
     float: left;
     padding:0% 0% 0% 10%;
     margin:0px;
+    height:75px;
     border-bottom-style: solid;
     border-bottom-width: 2px;
     border-bottom-color: grey;
+    font-size: 1.25vh;
 }
 
 .head-right{
     background-color:whitesmoke;
     width: 27.5%;
     float: left;
-    padding:15px 0% 0% 2.5%;
-    height:65px;
+    /*padding:15px 0% 0% 2.5%;*/
+    height:75px;
+    margin:0px;
     border-bottom-style: solid;
     border-bottom-width: 2px;
     border-bottom-color: grey;
@@ -75,7 +82,7 @@ li{
     border-top-style: solid;
     border-top-width: 0.5px;
     border-top-color: black;
-    height: 80%;
+    height: 100%;
     font-family: 'Georgia', Times, Times New Roman, serif;
     text-shadow: -1px 0 whitesmoke, 0 1px whitesmoke, 1px 0 whitesmoke, 0 -1px whitesmoke;
 }
