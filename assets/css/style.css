@@ -172,12 +172,17 @@ label{
     border-bottom-color: grey;
 }
 
-.port-bottom{
+.port-bottom-1{
    position: relative; 
-   height: 200px;
-   width:300px;
-   background-color: burlywood;
+   height: 220px;
+   width:400px;
+   background-color: whitesmoke;
+   border-style: solid;
+   border-width: 1px;
+   border-color: black;
    margin: 10px;
+   float:left;
+   margin-left: 10px;
 }
 
 .sub-proj1{
@@ -185,8 +190,12 @@ label{
     position: absolute;
     top: 150px;
     left:0px;
-    width:300px;
-    height: 30px;
+    width:400px;
+    height: 40px;
+}
+
+.proj-lbl{
+    text-align: center;
 }
 
 
