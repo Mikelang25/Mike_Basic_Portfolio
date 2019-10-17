@@ -155,6 +155,14 @@ input.input-name:focus{
     background-color: lightgray;
 }
 
+input.input-msg:focus{
+    background-color: lightgray;
+}
+
+input.input-email:focus{
+    background-color: lightgray;
+}
+
 input.btn-submit:hover{
     background-color: black;
     color:whitesmoke;
