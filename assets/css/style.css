@@ -50,7 +50,7 @@ li{
 
 .head-right{
     background-color:whitesmoke;
-    width: 27.5%;
+    width: 30%;
     float: left;
     /*padding:15px 0% 0% 2.5%;*/
     height:75px;
@@ -149,6 +149,15 @@ li{
 
 label{
     margin-left: 10px;
+}
+
+input.input-name:focus{
+    background-color: lightgray;
+}
+
+input.btn-submit:hover{
+    background-color: black;
+    color:whitesmoke;
 }
 /* end of the contact section of the site */
 /* begin of the portfolio section of the site */
