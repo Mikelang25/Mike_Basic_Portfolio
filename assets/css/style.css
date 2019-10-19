@@ -267,11 +267,13 @@ input.btn-submit:hover{
 
     /* expands the contact form  */
     .contact-container{
-        width:80%;
-        margin:20px;
+        width:85%;
+        margin:10px;
         height:600px;
     }
-
+    input{
+        padding-left:10px;
+    }
     #about-writeup{
         font-size:10pt;
         line-height: 1;
