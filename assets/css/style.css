@@ -6,7 +6,7 @@ body{
 li{
     display: inline;
     font-family: 'Georgia', Times, Times New Roman, serif;
-    font-size: 17pt;
+    font-size:17pt;
  }
 
  a{
@@ -222,6 +222,43 @@ input.btn-submit:hover{
 }
 
 
-
-
 /* end of the portfolio section of the site */
+/* media queries for sizing begin */
+
+@media screen and (max-width: 480px) {
+
+    .center{
+        width: 150px;
+    }
+
+    .nav-menu li + li:before{
+        content: "|";
+        padding: 0;
+    }
+
+    li{
+        display:inline;
+        text-align: center;
+        font-family: 'Georgia', Times, Times New Roman, serif;
+        font-size:9pt;
+    }
+    .main-container{
+        width:85%;
+        margin:10px;
+        height:600px;
+    }
+    #about-writeup{
+        padding:15px;
+        font-size:10pt;
+        line-height: 1;
+    }
+    .head-left{
+        width:40%;
+    }
+    .head-right{
+        width:50%;
+    }
+    .about-bottom{
+        float:none;
+    }
+  }
