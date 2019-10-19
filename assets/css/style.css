@@ -2,6 +2,9 @@
 body{
     background-image: url('../images/prism.png');
 }
+ul{
+    margin:20px;
+}
 
 li{
     display: inline;
@@ -15,12 +18,13 @@ li{
  }
 
  h1{
-     padding-top: 10px;
+     padding-top: 20px;
+
  }
 
 .nav-menu li + li:before{
-    content: " | ";
-    padding: 0 10px;
+    content: "|";
+    padding:10px;
 }
 .main-container{
     background-color: white;
@@ -64,6 +68,10 @@ li{
     float: left;
     width:40%;
 }
+.head-about{
+    margin:10px;
+    font-size: 17pt;
+}
 
 .center{
     float: left;
@@ -83,6 +91,7 @@ li{
     border-top-width: 0.5px;
     border-top-color: black;
     height: 100%;
+    font-size:20pt;
     font-family: 'Georgia', Times, Times New Roman, serif;
     text-shadow: -1px 0 whitesmoke, 0 1px whitesmoke, 1px 0 whitesmoke, 0 -1px whitesmoke;
 }
@@ -242,6 +251,12 @@ input.btn-submit:hover{
         font-family: 'Georgia', Times, Times New Roman, serif;
         font-size:9pt;
     }
+    h1{
+        padding-top:30px;
+    }
+    .center{
+        font-size:12pt;
+    }
     .main-container{
         width:85%;
         margin:10px;
@@ -261,7 +276,7 @@ input.btn-submit:hover{
         float:none;
     }
     .headshot{
-        width:20%;
+        width:30px;
         height:100px;
     }
   }
