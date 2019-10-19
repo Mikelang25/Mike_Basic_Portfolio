@@ -267,16 +267,19 @@ input.btn-submit:hover{
 
     /* expands the contact form  */
     .contact-container{
-        width:85%;
-        margin:10px;
-        height:600px;
-    }
-    input{
-        padding-left:10px;
+        background-color: white;
+        width: 85%;
+        height: 550px;
+        margin: 10px;
+        border-style: solid;
+        border-width: 2px;
+        border-color: grey;
+        padding: 0 20px 0 20px;
+        font-family: 'Georgia', Times, Times New Roman, serif;
     }
     #about-writeup{
         font-size:10pt;
-        line-height: 1;
+        line-height:1;
     }
     .head-left{
         width:40%;
@@ -291,27 +294,32 @@ input.btn-submit:hover{
         width:30px;
         height:100px;
     }
+}
 
-    .port-bottom-1{
-        position: relative; 
-        height: 80px;
-        width:120px;
-        background-color: whitesmoke;
-        border-style: solid;
-        border-width: 1px;
-        border-color: black;
-        margin: 10px;
-        float:left;
-        margin-left: 10px;
-     }
+@media screen and (min-width: 601px) and (max-width: 1105px){
 
-     .sub-proj1{
-        background-color:gray;
-        position: absolute;
-        top: 150px;
-        left:0px;
-        width:100px;
-        height: 80px;
-        line-height: 100%;
+    .center{
+        font-size:15pt;
+        width:150px;
     }
-  }
+    h1{
+        padding-top:30px;
+    }
+
+    .nav-menu li + li:before{
+        content: "|";
+        padding: 0;
+    }
+
+    li{
+        display:inline;
+        text-align: center;
+        font-family: 'Georgia', Times, Times New Roman, serif;
+        font-size:12pt;
+    }
+
+
+
+
+}
+
