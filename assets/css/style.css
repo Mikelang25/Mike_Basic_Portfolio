@@ -19,7 +19,6 @@ li{
 
  h1{
      padding-top: 20px;
-
  }
 
 .nav-menu li + li:before{
@@ -71,6 +70,7 @@ li{
 .head-about{
     margin:10px;
     font-size: 17pt;
+    font-weight:bold;
 }
 
 .center{
@@ -234,7 +234,7 @@ input.btn-submit:hover{
 /* end of the portfolio section of the site */
 /* media queries for sizing begin */
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 600px) {
 
     .center{
         width: 150px;
@@ -257,11 +257,21 @@ input.btn-submit:hover{
     .center{
         font-size:12pt;
     }
+
+    /* expands the headshot and about me section */
     .main-container{
         width:85%;
         margin:10px;
         height:600px;
     }
+
+    /* expands the contact form  */
+    .contact-container{
+        width:80%;
+        margin:20px;
+        height:600px;
+    }
+
     #about-writeup{
         font-size:10pt;
         line-height: 1;
@@ -278,5 +288,28 @@ input.btn-submit:hover{
     .headshot{
         width:30px;
         height:100px;
+    }
+
+    .port-bottom-1{
+        position: relative; 
+        height: 80px;
+        width:120px;
+        background-color: whitesmoke;
+        border-style: solid;
+        border-width: 1px;
+        border-color: black;
+        margin: 10px;
+        float:left;
+        margin-left: 10px;
+     }
+
+     .sub-proj1{
+        background-color:gray;
+        position: absolute;
+        top: 150px;
+        left:0px;
+        width:100px;
+        height: 80px;
+        line-height: 100%;
     }
   }
