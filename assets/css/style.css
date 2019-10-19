@@ -9,7 +9,7 @@ ul{
 li{
     display: inline;
     font-family: 'Georgia', Times, Times New Roman, serif;
-    font-size:17pt;
+    font-size:15pt;
  }
 
  a{
@@ -296,7 +296,7 @@ input.btn-submit:hover{
     }
 }
 
-@media screen and (min-width: 601px) and (max-width: 1105px){
+@media screen and (min-width: 601px) and (max-width: 1105px) {
 
     .center{
         font-size:15pt;
@@ -317,7 +317,11 @@ input.btn-submit:hover{
         font-family: 'Georgia', Times, Times New Roman, serif;
         font-size:12pt;
     }
-
+    .main-container{
+        width:85%;
+        margin:10px;
+        height:600px;
+    }
 
 
 
