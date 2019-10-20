@@ -233,8 +233,38 @@ input.btn-submit:hover{
 
 /* end of the portfolio section of the site */
 /* media queries for sizing begin */
+@media screen and (min-width: 601px) and (max-width: 1105px) {
 
-@media screen and (max-width: 600px) {
+    .center{
+        font-size:15pt;
+        width:150px;
+    }
+    h1{
+        padding-top:30px;
+    }
+
+    .nav-menu li + li:before{
+        content: "|";
+        padding: 0;
+    }
+
+    li{
+        display:inline;
+        text-align: center;
+        font-family: 'Georgia', Times, Times New Roman, serif;
+        font-size:12pt;
+    }
+    .main-container{
+        width:85%;
+        margin:10px;
+        height:600px;
+    }
+
+
+
+}
+
+@media screen (min-width: 320px) and (max-width: 480px) {
 
     .center{
         width: 150px;
@@ -296,34 +326,5 @@ input.btn-submit:hover{
     }
 }
 
-@media screen and (min-width: 601px) and (max-width: 1105px) {
 
-    .center{
-        font-size:15pt;
-        width:150px;
-    }
-    h1{
-        padding-top:30px;
-    }
-
-    .nav-menu li + li:before{
-        content: "|";
-        padding: 0;
-    }
-
-    li{
-        display:inline;
-        text-align: center;
-        font-family: 'Georgia', Times, Times New Roman, serif;
-        font-size:12pt;
-    }
-    .main-container{
-        width:85%;
-        margin:10px;
-        height:600px;
-    }
-
-
-
-}
 
