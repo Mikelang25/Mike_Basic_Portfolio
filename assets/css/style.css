@@ -229,13 +229,13 @@ input.btn-submit:hover{
 .proj-lbl{
     text-align: center;
 }
-@media screen and (min-width: 1105px) and (max-width: 1690px){
+@media screen and (min-width: 1105px) and (max-width: 1687px){
 
     .portfolio-container{
         background-color: white;
-        width: 30%;
+        width: 50%;
         height: 1000px;
-        margin-left: 150px;
+        margin-left: 100px;
         float: left;
         border-style: solid;
         border-width: 2px;
@@ -276,9 +276,9 @@ input.btn-submit:hover{
     }
     .portfolio-container{
         background-color: white;
-        width: 55%;
-        height: 1000px;
-        margin-left: 150px;
+        width: 50%;
+        height: 1050px;
+        margin-left: 180px;
         float: left;
         border-style: solid;
         border-width: 2px;
@@ -330,7 +330,7 @@ input.btn-submit:hover{
         width:75%;
         margin-top:5px;
         margin-left:25px;
-        height:800px;
+        height:700px;
     }
 
     /* expands the contact form  */
@@ -359,6 +359,41 @@ input.btn-submit:hover{
     #headshot{
         margin:30px;
     }
+
+    .portfolio-container{
+        background-color: white;
+        width: 75%;
+        height: 650px;
+        margin-left: 20px;
+        float: left;
+        border-style: solid;
+        border-width: 2px;
+        border-color: grey;
+        font-family: 'Georgia', Times, Times New Roman, serif;
+    }
+
+    .port-bottom-1{
+        position: relative; 
+        height: 120px;
+        width:250px;
+        background-color: whitesmoke;
+        border-style: solid;
+        border-width: 1px;
+        border-color: black;
+        margin: 5px;
+        float:left;
+      }
+     
+     .sub-proj1{
+         background-color:gray;
+         position: absolute;
+         top: 80px;
+         left:0px;
+         width:250px;
+         height: 30px;
+         line-height: 100%;
+     }
+
 }
 
 
