@@ -229,14 +229,29 @@ input.btn-submit:hover{
 .proj-lbl{
     text-align: center;
 }
+@media screen and (min-width: 1105px) and (max-width: 1690px){
 
+    .portfolio-container{
+        background-color: white;
+        width: 30%;
+        height: 1000px;
+        margin-left: 150px;
+        float: left;
+        border-style: solid;
+        border-width: 2px;
+        border-color: grey;
+        padding: 0 20px 0 20px;
+        font-family: 'Georgia', Times, Times New Roman, serif;
+    }
+
+}
 
 /* end of the portfolio section of the site */
 /* media queries for sizing begin */
-@media screen and (min-width: 601px) and (max-width: 1105px) {
+@media screen and (min-width: 601px) and (max-width: 1104px) {
 
     .center{
-        font-size:12pt;
+        font-size:14pt;
         width:150px;
     }
     h1{
@@ -256,7 +271,7 @@ input.btn-submit:hover{
     }
     .main-container{
         width:85%;
-        margin:10px;
+        margin-left:35px;
         height:600px;
     }
     .portfolio-container{
@@ -283,15 +298,13 @@ input.btn-submit:hover{
         padding: 0 20px 0 20px;
         font-family: 'Georgia', Times, Times New Roman, serif;
     }
-
-
-
 }
 
 @media screen and (min-width: 320px) and (max-width: 480px) {
 
     .center{
         width: 120px;
+        font-display: 10pt;
     }
 
     .nav-menu li + li:before{
@@ -314,9 +327,9 @@ input.btn-submit:hover{
 
     /* expands the headshot and about me section */
     .main-container{
-        width:65%;
+        width:75%;
         margin-top:5px;
-        margin-left:30px;
+        margin-left:25px;
         height:800px;
     }
 
@@ -324,7 +337,7 @@ input.btn-submit:hover{
     .contact-container{
         background-color: white;
         width: 80%;
-        height: 550px;
+        height: 500px;
         margin: 10px;
         border-style: solid;
         border-width: 2px;
@@ -342,12 +355,9 @@ input.btn-submit:hover{
     .head-right{
         width:50%;
     }
-    .about-bottom{
-        float:none;
-    }
-    .headshot{
-        width:30px;
-        height:100px;
+
+    #headshot{
+        margin:30px;
     }
 }
 
