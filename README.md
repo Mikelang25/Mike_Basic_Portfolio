@@ -1,2 +1,1 @@
-# MikeLang25.github.io
-Basic_Projects_Portfolio
+For the responsive assignment I prematurely started prior to reading the directions on the parameters for the media queries. The site itself still looks correct when I size the window to the parameters of the directions. I hope this is ok. 
