@@ -228,6 +228,7 @@ input.btn-submit:hover{
 .proj-lbl{
     text-align: center;
     color:white;
+    padding: 5px;
 
 }
 
@@ -392,7 +393,7 @@ input.btn-submit:hover{
       }
      
      .sub-proj1{
-         background-color:gray;
+        background-color:black;
          position: absolute;
          top: 80px;
          left:0px;
@@ -487,7 +488,7 @@ input.btn-submit:hover{
       }
      
      .sub-proj1{
-         background-color:gray;
+         background-color:black;
          position: absolute;
          top: 80px;
          left:0px;
