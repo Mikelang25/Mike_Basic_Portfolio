@@ -207,7 +207,7 @@ input.btn-submit:hover{
    position: relative; 
    height: 220px;
    width:400px;
-   background-color: whitesmoke;
+   background-color: black;
    border-style: solid;
    border-width: 1px;
    border-color: black;
@@ -219,16 +219,20 @@ input.btn-submit:hover{
 .sub-proj1{
     background-color:gray;
     position: absolute;
-    top: 150px;
+    top: 170px;
     left:0px;
     width:400px;
-    height: 50px;
+    height: 25px;
     line-height: 100%;
 }
 
 .proj-lbl{
     text-align: center;
 
+}
+
+#baseball-game{
+    background-image: url('../images/baseball.jpg');
 }
 
 
@@ -250,7 +254,7 @@ input.btn-submit:hover{
 }
 
 
-@media screen and (min-width: 601px) and (max-width: 1104px) {
+@media screen and (min-width: 738px) and (max-width: 1104px) {
 
     .center{
         font-size:14pt;
@@ -274,7 +278,7 @@ input.btn-submit:hover{
     .main-container{
         width:85%;
         margin-left:35px;
-        height:600px;
+        clear: both;
     }
     .portfolio-container{
         background-color: white;
@@ -399,5 +403,99 @@ input.btn-submit:hover{
 
 }
 
+@media screen and (min-width: 481px) and (max-width: 737px) {
+
+    .center{
+        width: 120px;
+        font-display: 10pt;
+    }
+
+    .nav-menu li + li:before{
+        content: "|";
+        padding: 0;
+    }
+
+    li{
+        display:inline;
+        text-align: center;
+        font-family: 'Georgia', Times, Times New Roman, serif;
+        font-size:8pt;
+    }
+    h1{
+        padding-top:30px;
+    }
+    .center{
+        font-size:10pt;
+    }
+
+  
+    .main-container{
+        width:75%;
+        margin-top:5px;
+        margin-left:25px;
+        height:650px;
+    }
+
+    .contact-container{
+        background-color: white;
+        width: 80%;
+        height: 500px;
+        margin: 10px;
+        border-style: solid;
+        border-width: 2px;
+        border-color: grey;
+        padding: 0 20px 0 20px;
+        font-family: 'Georgia', Times, Times New Roman, serif;
+    }
+    #about-writeup{
+        font-size:10pt;
+        line-height:1;
+    }
+    .head-left{
+        width:40%;
+    }
+    .head-right{
+        width:50%;
+    }
+
+    #headshot{
+        margin:30px;
+    }
+
+    .portfolio-container{
+        background-color: white;
+        width: 75%;
+        height: 650px;
+        margin-left: 20px;
+        float: left;
+        border-style: solid;
+        border-width: 2px;
+        border-color: grey;
+        font-family: 'Georgia', Times, Times New Roman, serif;
+    }
+
+    .port-bottom-1{
+        position: relative; 
+        height: 120px;
+        width:250px;
+        background-color: whitesmoke;
+        border-style: solid;
+        border-width: 1px;
+        border-color: black;
+        margin: 5px;
+        float:left;
+      }
+     
+     .sub-proj1{
+         background-color:gray;
+         position: absolute;
+         top: 80px;
+         left:0px;
+         width:250px;
+         height: 30px;
+         line-height: 100%;
+     }
+
+}
 
 
