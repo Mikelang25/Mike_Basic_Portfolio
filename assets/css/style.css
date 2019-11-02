@@ -207,7 +207,6 @@ input.btn-submit:hover{
    position: relative; 
    height: 220px;
    width:400px;
-   background-color: black;
    border-style: solid;
    border-width: 1px;
    border-color: black;
@@ -217,7 +216,7 @@ input.btn-submit:hover{
 }
 
 .sub-proj1{
-    background-color:gray;
+    background-color:black;
     position: absolute;
     top: 170px;
     left:0px;
@@ -228,11 +227,12 @@ input.btn-submit:hover{
 
 .proj-lbl{
     text-align: center;
+    color:white;
 
 }
 
 #baseball-game{
-    background-image: url('../images/baseball.jpg');
+    background-image: url('../images/Baseball_Icon.jpg');
 }
 
 
