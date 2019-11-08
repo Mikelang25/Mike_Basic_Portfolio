@@ -236,6 +236,10 @@ input.btn-submit:hover{
     background-image: url('../images/Baseball_Icon.jpg');
 }
 
+#superhero-game{
+    background-image: url('../images/superhero.png');
+}
+
 
 @media screen and (min-width: 1105px) and (max-width: 1687px){
 
