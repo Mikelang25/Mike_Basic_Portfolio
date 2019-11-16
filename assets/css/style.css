@@ -107,6 +107,10 @@ li{
     border-bottom-color: grey;
 }
 
+.about-bottom{
+    overflow: auto;
+}
+
 #headshot{
     margin: 10px;
     float: left;
@@ -186,7 +190,6 @@ input.btn-submit:hover{
 
 .portfolio-container{
     background-color: white;
-    width: 50%;
     height: 650px;
     margin: 30px 25% 0 25%;
     float: left;
@@ -234,10 +237,17 @@ input.btn-submit:hover{
 
 #baseball-game{
     background-image: url('../images/Baseball_Icon.jpg');
+    background-size: cover;
 }
 
 #superhero-game{
     background-image: url('../images/superhero.png');
+    background-size: cover;
+}
+
+#chelsea-game{
+    background-image: url('../images/chelsea.jpg');
+    background-size: cover;
 }
 
 
@@ -245,7 +255,6 @@ input.btn-submit:hover{
 
     .portfolio-container{
         background-color: white;
-        width: 50%;
         height: 1000px;
         margin-left: 50px;
         float: left;
@@ -395,6 +404,10 @@ input.btn-submit:hover{
         margin: 5px;
         float:left;
       }
+
+    .port-bottom{
+        overflow: auto;
+    }
      
      .sub-proj1{
         background-color:black;
